@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Job Listings</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <img src="images/bg-header-desktop.svg" alt="header image">
+  </header>
+
+  <div class="card-small row">
+    <div class="card-small__tablets row">
+      <div class="card-small__tablets-item">
+        <button>Frontend</button><img src="images/icon-remove.svg" alt="remove icon" class="card-small__rm-icon">
+      </div>
+      <div class="card-small__tablets-item">
+        <button>CSS</button><img src="images/icon-remove.svg" alt="remove icon" class="card-small__rm-icon">
+      </div>
+      <div class="card-small__tablets-item">
+        <button>Javascript</button><img src="images/icon-remove.svg" alt="remove icon" class="card-small__rm-icon">
+      </div>
+    </div>
+
+    <p class="card-small__clear">Clear</p>
+  </div>
+
+  <div class="container">
+
+    <div class="card">
+      <div class="card__props row">
+        <div class="card__img">
+          <img src="images/photosnap.svg" alt="photosnap logo">
+        </div>
+
+        <div class="details">
+          <h5>Photosnap <span class="badge-new">New!</span> <span class="badge-featured">Featured</span></h5>
+          <h3>Senior Frontend Developer</h3>
+          <div class="details__set">
+            <span>1 day ago</span> &middot
+            <span>Full Time</span> &middot
+            <span>USA only</span>
+          </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="tablets">
+          <button>Frontend</button>
+          <button>Senior</button>
+          <button>HTML</button>
+          <button>CSS</button>
+          <button>Javascript</button>
+        </div>
+      </div>
+      <div class="card-highlight"> </div>
+    </div>
+
+    <div class="card">
+      <div class="card__props row">
+        <div class="card__img">
+          <img src="images/manage.svg" alt="manage logo">
+        </div>
+
+        <div class="details">
+          <h5>Manage <span class="badge-new">New!</span> <span class="badge-featured">Featured</span></h5>
+          <h3>Fullstack Developer</h3>
+          <div class="details__set">
+            <span>1 day ago</span> &middot
+            <span>Part Time</span> &middot
+            <span>Remote</span>
+          </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="tablets">
+          <button>Fullstack</button>
+          <button>Midweight</button>
+          <button>Python</button>
+          <button>React</button>
+        </div>
+      </div>
+      <div class="card-highlight"> </div>
+    </div>
+
+    <div class="card">
+      <div class="card__props row">
+        <div class="card__img">
+          <img src="images/account.svg" alt="account logo">
+        </div>
+
+        <div class="details">
+          <h5>Account <span class="badge-new">New!</span></h5>
+          <h3>Junior Frontend Developer</h3>
+          <div class="details__set">
+            <span>2 days ago</span> &middot
+            <span>Part Time</span> &middot
+            <span>USA Only</span>
+          </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="tablets">
+          <button>Frontend</button>
+          <button>Junior</button>
+          <button>React</button>
+          <button>Sass</button>
+          <button>Javascript</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__props row">
+        <div class="card__img">
+          <img src="images/myhome.svg" alt="my home logo">
+        </div>
+
+        <div class="details">
+          <h5>My Home</h5>
+          <h3>Junior Frontend Developer</h3>
+          <div class="details__set">
+            <span>5 days ago</span> &middot
+            <span>Contract</span> &middot
+            <span>USA Only</span>
+          </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="tablets">
+          <button>Frontend</button>
+          <button>Junior</button>
+          <button>CSS</button>
+          <button>Javascript</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__props row">
+        <div class="card__img">
+          <img src="images/loop-studios.svg" alt="loop studios logo">
+        </div>
+
+        <div class="details">
+          <h5>Loop Studios</h5>
+          <h3>Software Engineer</h3>
+          <div class="details__set">
+            <span>1w ago</span> &middot
+            <span>Full Time</span> &middot
+            <span>Worldwide</span>
+          </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="tablets">
+          <button>Fullstack</button>
+          <button>Middleweight</button>
+          <button>Javascript</button>
+          <button>Ruby</button>
+          <button>SASS</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__props row">
+        <div class="card__img">
+          <img src="images/faceit.svg" alt="faceit logo">
+        </div>
+
+        <div class="details">
+          <h5>Faceit</h5>
+          <h3>Junior Backend Developer</h3>
+          <div class="details__set">
+            <span>2w ago</span> &middot
+            <span>Full Time</span> &middot
+            <span>UK only</span>
+          </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="tablets">
+          <button>Backend</button>
+          <button>Junior</button>
+          <button>Ruby</button>
+          <button>RoR</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__props row">
+        <div class="card__img">
+          <img src="images/shortly.svg" alt="shortly logo">
+        </div>
+
+        <div class="details">
+          <h5>Shortly</h5>
+          <h3>Junior Developer</h3>
+          <div class="details__set">
+            <span>2w ago</span> &middot
+            <span>Full Time</span> &middot
+            <span>Worldwide</span>
+          </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="tablets">
+          <button>Frontkend</button>
+          <button>Junior</button>
+          <button>HTML</button>
+          <button>Javascript</button>
+          <button>Sass</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__props row">
+        <div class="card__img">
+          <img src="images/insure.svg" alt="insure logo">
+        </div>
+
+        <div class="details">
+          <h5>Insure</h5>
+          <h3>Junior Frontend Developer</h3>
+          <div class="details__set">
+            <span>2w ago</span> &middot
+            <span>Full Time</span> &middot
+            <span>USA</span>
+          </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="tablets">
+          <button>Frontkend</button>
+          <button>Junior</button>
+          <button>Javascript</button>
+          <button>Vue</button>
+          <button>Sass</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__props row">
+        <div class="card__img">
+          <img src="images/eyecam-co.svg" alt="eyecam-co logo">
+        </div>
+
+        <div class="details">
+          <h5>Eyecam Co</h5>
+          <h3>FUllstack Engineer</h3>
+          <div class="details__set">
+            <span>3w ago</span> &middot
+            <span>Full Time</span> &middot
+            <span>Worldwide</span>
+          </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="tablets">
+          <button>Fullstack</button>
+          <button>Middleweight</button>
+          <button>Javascript</button>
+          <button>Python</button>
+          <button>Django</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__props row">
+        <div class="card__img">
+          <img src="images/the-air-filter-company.svg" alt="tafc logo">
+        </div>
+
+        <div class="details">
+          <h5>The Air Filter Company</h5>
+          <h3>Frontend Dev</h3>
+          <div class="details__set">
+            <span>1mo ago</span> &middot
+            <span>Part Time</span> &middot
+            <span>Worldwide</span>
+          </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="tablets">
+          <button>Frontend</button>
+          <button>Junior</button>
+          <button>Javascript</button>
+          <button>React</button>
+          <button>Sass</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
