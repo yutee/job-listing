@@ -20,25 +20,14 @@
     <img src="images/bg-header-desktop.svg" alt="header image">
   </header>
 
-  <div class="card-small row">
-    <div class="card-small__tablets row">
-      <div class="card-small__tablets-item">
-        <button>Frontend</button><img src="images/icon-remove.svg" alt="remove icon" class="card-small__rm-icon">
-      </div>
-      <div class="card-small__tablets-item">
-        <button>CSS</button><img src="images/icon-remove.svg" alt="remove icon" class="card-small__rm-icon">
-      </div>
-      <div class="card-small__tablets-item">
-        <button>Javascript</button><img src="images/icon-remove.svg" alt="remove icon" class="card-small__rm-icon">
-      </div>
+  <div class="container" id="jobList">
+    <div class="filter">
+        <div class="filter__tags"></div>
+
+        <div class="filter__clear">Clear</div>
     </div>
 
-    <p class="card-small__clear">Clear</p>
-  </div>
-
-  <div class="container">
-
-    <div class="card">
+    <div class="card" data-role="frontend" data-level="senior" data-languages="HTML CSS javascript" data-tools="">
       <div class="card__props row">
         <div class="card__img">
           <img src="images/photosnap.svg" alt="photosnap logo">
@@ -57,17 +46,17 @@
         <hr class="line">
 
         <div class="tablets">
-          <button>Frontend</button>
-          <button>Senior</button>
-          <button>HTML</button>
-          <button>CSS</button>
-          <button>Javascript</button>
+          <button class="job__tag">Frontend</button>
+          <button class="job__tag">Senior</button>
+          <button class="job__tag">HTML</button>
+          <button class="job__tag">CSS</button>
+          <button class="job__tag">Javascript</button>
         </div>
       </div>
       <div class="card-highlight"> </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-role="frontend" data-level="junior" data-languages="javascript" data-tools="react" data-tools="sass">
       <div class="card__props row">
         <div class="card__img">
           <img src="images/manage.svg" alt="manage logo">
@@ -86,16 +75,16 @@
         <hr class="line">
 
         <div class="tablets">
-          <button>Fullstack</button>
-          <button>Midweight</button>
-          <button>Python</button>
-          <button>React</button>
+          <button class="job__tag">Fullstack</button>
+          <button class="job__tag">Midweight</button>
+          <button class="job__tag">Python</button>
+          <button class="job__tag">React</button>
         </div>
       </div>
       <div class="card-highlight"> </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-role="frontend" data-level="junior" data-languages="javascript" data-tools="react" data-tools="sass">
       <div class="card__props row">
         <div class="card__img">
           <img src="images/account.svg" alt="account logo">
@@ -114,16 +103,16 @@
         <hr class="line">
 
         <div class="tablets">
-          <button>Frontend</button>
-          <button>Junior</button>
-          <button>React</button>
-          <button>Sass</button>
-          <button>Javascript</button>
+          <button class="job__tag">Frontend</button>
+          <button class="job__tag">Junior</button>
+          <button class="job__tag">React</button>
+          <button class="job__tag">Sass</button>
+          <button class="job__tag">Javascript</button>
         </div>
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-role="frontend" data-level="junior" data-languages="css" data-languages="javascript">
       <div class="card__props row">
         <div class="card__img">
           <img src="images/myhome.svg" alt="my home logo">
@@ -142,15 +131,15 @@
         <hr class="line">
 
         <div class="tablets">
-          <button>Frontend</button>
-          <button>Junior</button>
-          <button>CSS</button>
-          <button>Javascript</button>
+          <button class="job__tag">Frontend</button>
+          <button class="job__tag">Junior</button>
+          <button class="job__tag">CSS</button>
+          <button class="job__tag">Javascript</button>
         </div>
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-role="fullstack" data-level="middleweight" data-languages="javascript" data-languages="ruby" data-tools="sass">
       <div class="card__props row">
         <div class="card__img">
           <img src="images/loop-studios.svg" alt="loop studios logo">
@@ -169,16 +158,16 @@
         <hr class="line">
 
         <div class="tablets">
-          <button>Fullstack</button>
-          <button>Middleweight</button>
-          <button>Javascript</button>
-          <button>Ruby</button>
-          <button>SASS</button>
+          <button class="job__tag">Fullstack</button>
+          <button class="job__tag">Middleweight</button>
+          <button class="job__tag">Javascript</button>
+          <button class="job__tag">Ruby</button>
+          <button class="job__tag">SASS</button>
         </div>
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-role="backend" data-level="junior" data-languages="ruby" data-tools="ror">
       <div class="card__props row">
         <div class="card__img">
           <img src="images/faceit.svg" alt="faceit logo">
@@ -197,15 +186,15 @@
         <hr class="line">
 
         <div class="tablets">
-          <button>Backend</button>
-          <button>Junior</button>
-          <button>Ruby</button>
-          <button>RoR</button>
+          <button class="job__tag">Backend</button>
+          <button class="job__tag">Junior</button>
+          <button class="job__tag">Ruby</button>
+          <button class="job__tag">RoR</button>
         </div>
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-role="frontend" data-level="junior" data-languages="HTML" data-languages="javascript" data-tools="sass">
       <div class="card__props row">
         <div class="card__img">
           <img src="images/shortly.svg" alt="shortly logo">
@@ -224,16 +213,16 @@
         <hr class="line">
 
         <div class="tablets">
-          <button>Frontkend</button>
-          <button>Junior</button>
-          <button>HTML</button>
-          <button>Javascript</button>
-          <button>Sass</button>
+          <button class="job__tag">Frontend</button>
+          <button class="job__tag">Junior</button>
+          <button class="job__tag">HTML</button>
+          <button class="job__tag">Javascript</button>
+          <button class="job__tag">Sass</button>
         </div>
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-role="frontend" data-level="junior" data-languages="javascript" data-tools="vue" data-tools="sass">
       <div class="card__props row">
         <div class="card__img">
           <img src="images/insure.svg" alt="insure logo">
@@ -252,16 +241,16 @@
         <hr class="line">
 
         <div class="tablets">
-          <button>Frontkend</button>
-          <button>Junior</button>
-          <button>Javascript</button>
-          <button>Vue</button>
-          <button>Sass</button>
+          <button class="job__tag">Frontend</button>
+          <button class="job__tag">Junior</button>
+          <button class="job__tag">Javascript</button>
+          <button class="job__tag">Vue</button>
+          <button class="job__tag">Sass</button>
         </div>
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-role="fullstack" data-level="middleweight" data-languages="javascript" data-languages="python" data-tools="django">
       <div class="card__props row">
         <div class="card__img">
           <img src="images/eyecam-co.svg" alt="eyecam-co logo">
@@ -269,7 +258,7 @@
 
         <div class="details">
           <h5>Eyecam Co</h5>
-          <h3>FUllstack Engineer</h3>
+          <h3>Fullstack Engineer</h3>
           <div class="details__set">
             <span>3w ago</span> &middot
             <span>Full Time</span> &middot
@@ -280,16 +269,16 @@
         <hr class="line">
 
         <div class="tablets">
-          <button>Fullstack</button>
-          <button>Middleweight</button>
-          <button>Javascript</button>
-          <button>Python</button>
-          <button>Django</button>
+          <button class="job__tag">Fullstack</button>
+          <button class="job__tag">Middleweight</button>
+          <button class="job__tag">Javascript</button>
+          <button class="job__tag">Python</button>
+          <button class="job__tag">Django</button>
         </div>
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-role="frontend" data-level="junior" data-languages="javascript" data-languages="react" data-tools="sass">
       <div class="card__props row">
         <div class="card__img">
           <img src="images/the-air-filter-company.svg" alt="tafc logo">
@@ -307,12 +296,12 @@
 
         <hr class="line">
 
-        <div class="tablets">
-          <button>Frontend</button>
-          <button>Junior</button>
-          <button>Javascript</button>
-          <button>React</button>
-          <button>Sass</button>
+        <div class="tablets" id="tablets">
+          <button class="job__tag">Frontend</button>
+          <button class="job__tag">Junior</button>
+          <button class="job__tag">Javascript</button>
+          <button class="job__tag">React</button>
+          <button class="job__tag">Sass</button>
         </div>
       </div>
     </div>
@@ -323,5 +312,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
